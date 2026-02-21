@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All — Bhebhi RaMwari</title>
+  <meta name="description" content="Shop designer handbags, heels, makeup, jewelry, and clothing at Bhebhi RaMwari. Luxury fashion for the modern African woman.">
+  <meta property="og:title" content="Shop All — Bhebhi RaMwari">
+  <meta property="og:description" content="Designer handbags, heels, makeup, jewelry & clothing. Luxury fashion for the modern African woman.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    Free Shipping on Orders Over $99 &nbsp;|&nbsp; Harare &bull; Bulawayo &bull; Nationwide
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Bhebhi RaMwari</a>
+      <div class="nav-links">
+        <div class="nav-dropdown-trigger">
+          <a href="shop.html" class="nav-link">Shop</a>
+          <div class="nav-dropdown">
+            <a href="#handbags">Handbags</a>
+            <a href="#heels">Heels</a>
+            <a href="#makeup">Makeup</a>
+            <a href="#jewelry">Jewelry</a>
+            <a href="#clothing">Clothing</a>
+          </div>
+        </div>
+        <a href="index.html#story" class="nav-link">Our Story</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-icons">
+        <button class="nav-icon search-toggle" aria-label="Search">&#x1F50D;</button>
+        <button class="nav-icon cart-toggle" aria-label="Cart">
+          &#x1F6CD;
+          <span class="cart-count">0</span>
+        </button>
+        <button class="menu-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay"></div>
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <span class="nav-logo">Bhebhi RaMwari</span>
+      <button class="mobile-menu-close">&times;</button>
+    </div>
+    <div class="mobile-menu-links">
+      <a href="shop.html">Shop All</a>
+      <div class="mobile-menu-categories">
+        <a href="#handbags">Handbags</a>
+        <a href="#heels">Heels</a>
+        <a href="#makeup">Makeup</a>
+        <a href="#jewelry">Jewelry</a>
+        <a href="#clothing">Clothing</a>
+      </div>
+      <a href="index.html#story">Our Story</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay">
+    <button class="search-close">&times;</button>
+    <div class="search-input-wrapper">
+      <input type="text" class="search-input" placeholder="Search products...">
+      <div class="search-results"></div>
+    </div>
+  </div>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>Shop All</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Shop</p>
+  </div>
+
+  <!-- Shop Content -->
+  <section class="section-padding" style="padding-top: 0;">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="handbags">Handbags</button>
+          <button class="filter-tab" data-filter="heels">Heels</button>
+          <button class="filter-tab" data-filter="makeup">Makeup</button>
+          <button class="filter-tab" data-filter="jewelry">Jewelry</button>
+          <button class="filter-tab" data-filter="clothing">Clothing</button>
+        </div>
+        <select class="sort-select">
+          <option value="featured">Sort: Featured</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="newest">Newest First</option>
+        </select>
+      </div>
+
+      <!-- Product Grid — 20 Products -->
+      <div class="product-grid">
+
+        <!-- HANDBAGS -->
+        <div class="product-card" data-category="handbags" data-price="189" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80" alt="Milano Leather Tote" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p1" data-name="Milano Leather Tote" data-price="189" data-image="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Handbags</p>
+            <h3 class="product-name">Milano Leather Tote</h3>
+            <p class="product-price">$189.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="handbags" data-price="129">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=500&q=80" alt="Crystal Evening Clutch" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p2" data-name="Crystal Evening Clutch" data-price="129" data-image="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Handbags</p>
+            <h3 class="product-name">Crystal Evening Clutch</h3>
+            <p class="product-price">$129.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="handbags" data-price="109">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&q=80" alt="Sahara Crossbody Bag" loading="lazy">
+            <span class="product-badge badge-sale">Sale</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p9" data-name="Sahara Crossbody Bag" data-price="109" data-image="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Handbags</p>
+            <h3 class="product-name">Sahara Crossbody Bag</h3>
+            <p class="product-price">$109.00 <span class="original-price">$149.00</span></p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="handbags" data-price="225">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=500&q=80" alt="Victoria Shoulder Bag" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p10" data-name="Victoria Shoulder Bag" data-price="225" data-image="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Handbags</p>
+            <h3 class="product-name">Victoria Shoulder Bag</h3>
+            <p class="product-price">$225.00</p>
+          </div>
+        </div>
+
+        <!-- HEELS -->
+        <div class="product-card" data-category="heels" data-price="165" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&q=80" alt="Nairobi Stiletto Heels" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p3" data-name="Nairobi Stiletto Heels" data-price="165" data-image="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Heels</p>
+            <h3 class="product-name">Nairobi Stiletto Heels</h3>
+            <p class="product-price">$165.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="heels" data-price="145">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=500&q=80" alt="Gold Block Heel Sandals" loading="lazy">
+            <span class="product-badge badge-sale">Sale</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p4" data-name="Gold Block Heel Sandals" data-price="145" data-image="https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Heels</p>
+            <h3 class="product-name">Gold Block Heel Sandals</h3>
+            <p class="product-price">$145.00 <span class="original-price">$195.00</span></p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="heels" data-price="155">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=500&q=80" alt="Ruby Red Pumps" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p11" data-name="Ruby Red Pumps" data-price="155" data-image="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Heels</p>
+            <h3 class="product-name">Ruby Red Pumps</h3>
+            <p class="product-price">$155.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="heels" data-price="175">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500&q=80" alt="Midnight Strappy Heels" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p12" data-name="Midnight Strappy Heels" data-price="175" data-image="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Heels</p>
+            <h3 class="product-name">Midnight Strappy Heels</h3>
+            <p class="product-price">$175.00</p>
+          </div>
+        </div>
+
+        <!-- MAKEUP -->
+        <div class="product-card" data-category="makeup" data-price="59" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=500&q=80" alt="Luxe Matte Lip Collection" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p5" data-name="Luxe Matte Lip Collection" data-price="59" data-image="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Makeup</p>
+            <h3 class="product-name">Luxe Matte Lip Collection</h3>
+            <p class="product-price">$59.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="makeup" data-price="75">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500&q=80" alt="24K Gold Highlight Palette" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p6" data-name="24K Gold Highlight Palette" data-price="75" data-image="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Makeup</p>
+            <h3 class="product-name">24K Gold Highlight Palette</h3>
+            <p class="product-price">$75.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="makeup" data-price="89" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1631214500115-598fc2cb8ada?w=500&q=80" alt="Flawless Foundation Set" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p13" data-name="Flawless Foundation Set" data-price="89" data-image="https://images.unsplash.com/photo-1631214500115-598fc2cb8ada?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Makeup</p>
+            <h3 class="product-name">Flawless Foundation Set</h3>
+            <p class="product-price">$89.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="makeup" data-price="65">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500&q=80" alt="Cocoa Contour Kit" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p14" data-name="Cocoa Contour Kit" data-price="65" data-image="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Makeup</p>
+            <h3 class="product-name">Cocoa Contour Kit</h3>
+            <p class="product-price">$65.00</p>
+          </div>
+        </div>
+
+        <!-- JEWELRY -->
+        <div class="product-card" data-category="jewelry" data-price="89">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&q=80" alt="Zara Statement Necklace" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p7" data-name="Zara Statement Necklace" data-price="89" data-image="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Jewelry</p>
+            <h3 class="product-name">Zara Statement Necklace</h3>
+            <p class="product-price">$89.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="jewelry" data-price="210">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&q=80" alt="Diamond Drop Earrings" loading="lazy">
+            <span class="product-badge badge-sale">Sale</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p8" data-name="Diamond Drop Earrings" data-price="210" data-image="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Jewelry</p>
+            <h3 class="product-name">Diamond Drop Earrings</h3>
+            <p class="product-price">$210.00 <span class="original-price">$280.00</span></p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="jewelry" data-price="120" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80" alt="Gold Cuff Bracelet" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p15" data-name="Gold Cuff Bracelet" data-price="120" data-image="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Jewelry</p>
+            <h3 class="product-name">Gold Cuff Bracelet</h3>
+            <p class="product-price">$120.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="jewelry" data-price="95">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&q=80" alt="Pearl & Gold Ring Set" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p16" data-name="Pearl & Gold Ring Set" data-price="95" data-image="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Jewelry</p>
+            <h3 class="product-name">Pearl & Gold Ring Set</h3>
+            <p class="product-price">$95.00</p>
+          </div>
+        </div>
+
+        <!-- CLOTHING -->
+        <div class="product-card" data-category="clothing" data-price="245" data-new="true">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=500&q=80" alt="Silk Wrap Dress" loading="lazy">
+            <span class="product-badge badge-new">New</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p17" data-name="Silk Wrap Dress" data-price="245" data-image="https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Clothing</p>
+            <h3 class="product-name">Silk Wrap Dress</h3>
+            <p class="product-price">$245.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="clothing" data-price="310">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=500&q=80" alt="Emerald Blazer Set" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p18" data-name="Emerald Blazer Set" data-price="310" data-image="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Clothing</p>
+            <h3 class="product-name">Emerald Blazer Set</h3>
+            <p class="product-price">$310.00</p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="clothing" data-price="385">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80" alt="Off-Shoulder Evening Gown" loading="lazy">
+            <span class="product-badge badge-sale">Sale</span>
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p19" data-name="Off-Shoulder Evening Gown" data-price="385" data-image="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Clothing</p>
+            <h3 class="product-name">Off-Shoulder Evening Gown</h3>
+            <p class="product-price">$385.00 <span class="original-price">$450.00</span></p>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="clothing" data-price="195">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1590735213920-68192a487bc2?w=500&q=80" alt="Ankara Print Jumpsuit" loading="lazy">
+            <div class="product-actions">
+              <button class="add-to-cart" data-id="p20" data-name="Ankara Print Jumpsuit" data-price="195" data-image="https://images.unsplash.com/photo-1590735213920-68192a487bc2?w=200&q=80">Add to Bag</button>
+              <button class="quick-view-btn">&#x1F441;</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category-label">Clothing</p>
+            <h3 class="product-name">Ankara Print Jumpsuit</h3>
+            <p class="product-price">$195.00</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="nav-logo">Bhebhi RaMwari</span>
+          <p>Luxury fashion celebrating African beauty and elegance. Curated collections of designer handbags, heels, makeup, jewelry, and clothing for the modern woman.</p>
+          <div class="footer-social">
+            <a href="#">IG</a>
+            <a href="#">FB</a>
+            <a href="#">TW</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="shop.html">Shop All</a>
+          <a href="index.html#story">Our Story</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Size Guide</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <a href="#handbags">Handbags</a>
+          <a href="#heels">Heels</a>
+          <a href="#makeup">Makeup</a>
+          <a href="#jewelry">Jewelry</a>
+          <a href="#clothing">Clothing</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <a href="#">123 Samora Machel Ave, Harare</a>
+          <a href="#">+263 77 000 0000</a>
+          <a href="#">hello@bhebhiramwari.co.zw</a>
+          <a href="#">WhatsApp Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Bhebhi RaMwari. All rights reserved. &nbsp;|&nbsp; Designed with love in Zimbabwe
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Panel -->
+  <div class="cart-overlay"></div>
+  <div class="cart-panel">
+    <div class="cart-header">
+      <h3>Your Bag</h3>
+      <button class="cart-close">&times;</button>
+    </div>
+    <div class="cart-items"></div>
+    <p class="cart-empty">Your bag is empty. Start shopping to add items.</p>
+    <div class="cart-footer" style="display: none;">
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <span class="cart-total-amount">$0.00</span>
+      </div>
+      <button class="cart-checkout">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Quick View Modal -->
+  <div class="quick-view-overlay"></div>
+  <div class="quick-view-modal">
+    <button class="qv-close">&times;</button>
+    <img class="qv-image" src="" alt="">
+    <div class="qv-content">
+      <p class="qv-category"></p>
+      <h2 class="qv-name"></h2>
+      <p class="qv-price"></p>
+      <p class="qv-description">Exquisite craftsmanship meets timeless design. Each piece is carefully selected to bring out your inner radiance and elevate your style.</p>
+      <button class="add-to-cart qv-add-to-cart" data-id="" data-name="" data-price="" data-image="">Add to Bag</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
